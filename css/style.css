@@ -279,6 +279,15 @@ header .inner {
 	text-indent:-99em;
 	display:block;
 }
+.Form_attributes label span
+{
+	float:left;
+	width:70px;
+	text-align:left;
+	margin:0 0 0 0;	
+	font-size:14px;
+	color:#7F2E00;
+}
 /********************** Slider ************************/
 .mp-slider .items {display:none;}
 .mp-slider {
