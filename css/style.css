@@ -125,7 +125,7 @@ strong {color:#b30404;}
 	text-transform:uppercase;
 }
 .str-2 {
-	color:#b09609;
+	color:#7F2E00;
 }
 .color-1 {
 	color:#fff;
@@ -499,7 +499,7 @@ section#content {
 .adress dt {
 	display:block;
 	font-weight:normal;
-	color:#717171;
+	color:#7F2E00;
 	font-size:12px;
 	line-height:18px;
 	width:235px;
@@ -507,7 +507,7 @@ section#content {
 .adress dd {
 	font-size:12px;
 	line-height:18px;
-	color:#717171;
+	color:#7F2E00;
 	overflow:hidden;
 }
 .adress dd span {
