@@ -1,7 +1,5 @@
 @import"reset.css";
 @import"forms.css";
-@import url(http://fonts.googleapis.com/css?family=Passion+One);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic);
 body{
 	background:url(../images/footer-bg.gif) 50% 0;
 	font:12px/18px Arial, Helvetica, sans-serif;
@@ -48,7 +46,6 @@ h1,h2,h3,h4,h5,h6{
 	color:#fff;
 	padding:0 0 9px 0;
 	font-weight:normal;
-	font-family: 'Passion One', cursive;
 }
 h1{font-size:40px; line-height:48px;}
 h2{font-size:36px; line-height:44px;}
@@ -57,7 +54,12 @@ h4{font-size:28px; line-height:34px;}
 h5{font-size:24px; line-height:30px;}
 h6{font-size:20px; line-height:24px;}
 .heading-1 {
-	color:#b30404;
+	font-weight:normal;
+	font-size:16px;
+	line-height:26px;
+	color:#717171;
+	outline-width: 100px;
+	margin: 0 0 0 15%;
 }
 /*----- text & typography -----*/
 .def-list-1 {padding:0 0 10px 0;}
@@ -513,9 +515,8 @@ footer a {color:#717171;}
 }
 .footer-logo {
 	font-weight:normal;
-	font-size:16px;
+	font-size:12px;
 	line-height:28px;
-	font-family: 'Passion One', cursive;
 	color:#717171;
 	margin:-5px 0 0 0;
 	display:inline-block;
@@ -534,6 +535,7 @@ footer a {color:#717171;}
 			color:#fff;
 		}
 .social-list li {
+		position:relative;
 	text-align:right;	
 	padding:5px 0 0 0;
 }
@@ -541,8 +543,4 @@ footer a {color:#717171;}
 		display:inline-block;
 		width:27px;
 		height:24px;
-		background:#585858;
 	}
-		.social-list li a:hover {
-			background:#b30404;
-		}
