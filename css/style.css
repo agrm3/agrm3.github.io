@@ -562,7 +562,8 @@ footer a {color:#717171;}
 			color:#fff;
 		}
 .social-list li {
-		position:relative;
+	display: inline;
+	position:relative;
 	text-align:right;	
 	padding:5px 0 0 0;
 }
