@@ -42,13 +42,13 @@ html,body{height:100%;}
 	display:block;
 }
 /*  Header styles */
-h1,h3,h4,h5,h6,h8
+h1,h3,h5,h8
 {
 	color:#fff;
 	padding:0 0 9px 0;
 	font-weight:normal;
 }
-h2,h7 
+h2,h7,h4,h6 
 {
 color:#7F2E00;
 padding:0 0 9px 0;
