@@ -68,23 +68,23 @@
                         <article class="col-2-3">
 							<div class="wrap-col">
 	                        	<h2>Контактная форма:</h2>
-	                            <form id="contact-form" method="post">
+	                            <form id="contact-form" method="post" action= "post.php">
 	                              <fieldset class="Form_attributes">
 	                                <label>
 	                                	<span>ФИО: </span>
-										<input type="text">
+										<input name="fio" type="text">
 	                                </label>
 	                                <label>
 	                                  <span>Email: </span>
-	                                  <input type="email">
+	                                  <input name="email" type="email">
 	                                </label>
 	                                <label>
 	                                  <span>Сообщение: </span>	
-	                                  <textarea></textarea>
+	                                  <textarea name="message" rows= "10" cols= "45"></textarea>
 	                                </label>
 	                                <div class="btns">
 	                                    <a class="button" onClick="document.getElementById('contact-form').reset()">Очистить</a>
-	                                    <a class="button" onClick="document.getElementById('contact-form').submit()">Отправить</a> 
+	                                   	<input class="button" type= "submit" value= "Отправить"> 
 	                                </div>
 	                              </fieldset>
 	                            </form>
